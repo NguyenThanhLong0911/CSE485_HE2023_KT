@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th8 18, 2023 lúc 11:51 AM
+-- Thời gian đã tạo: Th8 18, 2023 lúc 12:02 PM
 -- Phiên bản máy phục vụ: 10.4.28-MariaDB
 -- Phiên bản PHP: 8.2.4
 
@@ -53,7 +53,27 @@ INSERT INTO `channels` (`id`, `name`, `description`, `subscriberscount`, `url`, 
 (9, 'Walter LLC', 'Porro voluptatem distinctio est similique rerum.', 6293, 'http://www.mclaughlin.com/voluptatem-corrupti-fugiat-aut-impedit-officiis-et-tempora-ut.html', NULL, NULL),
 (10, 'Adams-Emard', 'Labore sit soluta ex ullam eaque aut.', 9734, 'http://langworth.com/est-voluptas-omnis-voluptatibus-sit-voluptates-aut.html', NULL, NULL),
 (12, 'abc', 'adádsds', 1000, 'https://www.youtube.com/', NULL, NULL),
-(13, 'abcde', 'adádsds', 1000, 'https://www.youtube.com/', NULL, NULL);
+(14, 'abc', 'abcdee', 10000, 'https://www.youtube.com/', NULL, NULL),
+(15, 'Zboncak-Emard', 'Ut aliquam minima vitae id distinctio.', 6634, 'http://runolfsdottir.com/rem-corrupti-laborum-voluptas-assumenda-autem.html', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(16, 'Carroll PLC', 'Qui doloribus et vero illo corrupti et sunt.', 5624, 'http://feil.com/', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(17, 'Lemke, Lang and Emmerich', 'Sint dolorem commodi sed distinctio vero porro qui.', 1833, 'http://www.kessler.org/quia-sunt-minima-ut-libero-sunt-et-est-repudiandae', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(18, 'Toy and Sons', 'Et quia corporis neque eligendi et.', 1936, 'http://strosin.com/', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(19, 'Mann-Macejkovic', 'Nisi odio atque quam tempore quam.', 5285, 'http://gutmann.com/', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(20, 'Veum-Stehr', 'Nulla voluptatem vel at dolorem quia non.', 7189, 'http://bins.net/quia-fugit-eius-et-quia-non-officia-ut-voluptatem', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(21, 'Gusikowski-Kozey', 'Officiis praesentium qui dolores enim et.', 8006, 'https://schmeler.info/quas-cum-voluptatum-voluptatem-accusantium-deleniti-qui.html', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(22, 'McCullough Group', 'Consectetur cupiditate vel voluptas voluptate.', 6718, 'http://wuckert.com/iste-mollitia-provident-earum-deleniti-minus-dolor-iusto', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(23, 'Kshlerin Inc', 'Itaque veniam est vitae.', 2120, 'http://auer.com/', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(24, 'Wilkinson-Metz', 'Ea sunt non autem sed quae.', 5642, 'http://hamill.com/commodi-ut-est-fugiat-delectus', '2023-08-18 02:59:33', '2023-08-18 02:59:33'),
+(25, 'Marvin Inc', 'Et facere odit aperiam similique autem non.', 2466, 'https://waelchi.com/excepturi-quia-consectetur-quisquam-quo-eum-voluptatem.html', '2023-08-18 03:01:02', '2023-08-18 03:01:02'),
+(26, 'Weissnat-VonRueden', 'Eveniet et omnis perferendis et similique odit dolor.', 7208, 'http://www.flatley.com/cum-eligendi-sint-laborum-dolorem-in-velit-quidem-ea', '2023-08-18 03:01:02', '2023-08-18 03:01:02'),
+(27, 'Bode and Sons', 'Eius consequuntur dolores sed aut.', 6701, 'http://www.kris.com/', '2023-08-18 03:01:02', '2023-08-18 03:01:02'),
+(28, 'Schamberger, Heidenreich and Kuhlman', 'Et sapiente rerum quaerat est est eveniet aspernatur.', 8004, 'https://www.hammes.info/nulla-ullam-harum-est-in-corrupti-modi-aut-expedita', '2023-08-18 03:01:02', '2023-08-18 03:01:02'),
+(29, 'Denesik, McClure and Moen', 'Quam officiis ut autem consequuntur.', 6162, 'http://herman.org/optio-hic-voluptatem-quasi-harum-voluptas', '2023-08-18 03:01:02', '2023-08-18 03:01:02'),
+(30, 'Connelly Ltd', 'Quos quia dignissimos minus aspernatur dolores vero.', 6959, 'http://langosh.com/rem-fugiat-aliquid-maiores-excepturi.html', '2023-08-18 03:01:02', '2023-08-18 03:01:02'),
+(31, 'Frami, Mitchell and Maggio', 'Repellat reprehenderit ipsa soluta commodi ullam labore.', 4822, 'http://nader.info/aliquid-sapiente-laudantium-eligendi-velit-non-et-enim', '2023-08-18 03:01:02', '2023-08-18 03:01:02'),
+(32, 'Price, Beier and Moore', 'Maxime tempore molestiae minima facere cum nisi veniam.', 2365, 'http://nikolaus.com/recusandae-ipsa-ab-facere-ratione-dolores-ut-enim', '2023-08-18 03:01:02', '2023-08-18 03:01:02'),
+(33, 'Hand-Deckow', 'Magni vitae accusamus possimus incidunt voluptas maxime.', 8505, 'https://ritchie.com/quisquam-totam-est-alias-officia-voluptatibus.html', '2023-08-18 03:01:02', '2023-08-18 03:01:02'),
+(34, 'Ryan, Miller and Jaskolski', 'Tempora quia fuga impedit ut debitis aut.', 2558, 'http://block.biz/incidunt-numquam-iure-voluptatem-beatae', '2023-08-18 03:01:02', '2023-08-18 03:01:02');
 
 -- --------------------------------------------------------
 
@@ -194,7 +214,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `channels`
 --
 ALTER TABLE `channels`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT cho bảng `failed_jobs`
