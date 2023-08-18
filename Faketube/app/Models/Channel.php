@@ -5,12 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Employee extends Model
+class Channel extends Model
 {
     public $timestamps = FALSE;
-    protected $table = 'employees';
+    protected $table = 'channels';
     protected $primaryKey = 'id';
 
-    protected $fillable = ['name', 'address', 'salary'];
+    protected $fillable = ['name', 'description', 'subscriberscount', 'url'];
     use HasFactory;
 }

@@ -3,36 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xproject</title>
+    <title>Channel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
 <div class="container">
 <main>
-<div class="card">
-    <div class="card-header text-primary">Edit Employee</div>
+    <div class="card">
+    <div class="card-header text-primary">Add Channel</div>
     <div class="card-body">
-        <form action="{{route('employees.update' , $employee->id)}}" method="POST">
+        <form action="{{ route('channel.store')}}" method="POST" style="display: inline-block;">
             @csrf
-            @method('PUT')
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <strong>FullName</strong>
-                        <input type="text" name="name" value="{{$employee->name}}" class="form-control">
+                        <Strong>ChannelName</Strong>
+                        <input type="text" name="name" class="form-control" placeholder="name">
                     </div>
                     <div class="form-group">
-                        <Strong>Address</Strong>
-                        <input type="text" name="address" value="{{$employee->address}}" class="form-control">
+                        <strong>Description</strong>
+                        <input type="text" name="description" class="form-control" placeholder="description">
                     </div>
                     <div class="form-group">
-                        <strong>Salary</strong>
-                        <input type="text" name="salary" value="{{$employee->salary}}" class="form-control">
+                        <strong>Subscriberscount</strong>
+                        <input type="text" name="subscriberscount" class="form-control" placeholder="subscriberscount">
+                    </div>
+                    <div class="form-group">
+                        <strong>URL</strong>
+                        <input type="text" name="url" class="form-control" placeholder="url">
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-success mt-2">Save</button>
+            <button type="submit" class="btn btn-success mt-2">Add</button>
         </form>
     </div>
 </div>
